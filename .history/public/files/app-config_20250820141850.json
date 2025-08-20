@@ -1,0 +1,32 @@
+{
+    "app": {
+        "name": "Universal Links Test App",
+        "version": "1.0.0",
+        "description": "Sample configuration for universal links testing"
+    },
+    "api": {
+        "baseUrl": "https://your-domain.vercel.app",
+        "endpoints": {
+            "files": "/files",
+            "config": "/api/config"
+        }
+    },
+    "platforms": {
+        "ios": {
+            "bundleId": "com.example.universallinks",
+            "teamId": "YOUR_TEAM_ID"
+        },
+        "android": {
+            "packageName": "com.example.universallinks",
+            "sha256Fingerprint": "YOUR_SHA256_FINGERPRINT"
+        }
+    },
+    "universalLinks": {
+        "domains": [
+            "your-domain.vercel.app"
+        ],
+        "paths": [
+            "/files/*"
+        ]
+    }
+}
