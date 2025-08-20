@@ -1,0 +1,17 @@
+{
+    "ios": {
+        "bundleId": "com.example.myapp",
+        "teamId": "ABC123DEF4",
+        "associatedDomains": [
+            "applinks:your-domain.vercel.app"
+        ],
+        "capabilities": {
+            "associatedDomains": true
+        }
+    },
+    "files": {
+        "assets": "/files/ios-assets.zip",
+        "config": "/files/app-config.json",
+        "images": "/files/ios-images.zip"
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "applinks": {
+        "apps": [],
+        "details": [
+            {
+                "appID": "5GJ9GL79M4.co.hft.fc.staging",
+                "paths": [
+                    "/files/*",
+                    "/api/*",
+                    "/config/*"
+                ]
+            }
+        ]
+    },
+    "webcredentials": {
+        "apps": [
+            "5GJ9GL79M4.co.hft.fc.staging"
+        ]
+    },
+    "appclips": {
+        "apps": [
+            "5GJ9GL79M4.co.hft.fc.staging"
+        ]
+    }
+}

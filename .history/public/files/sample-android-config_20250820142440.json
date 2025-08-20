@@ -1,0 +1,21 @@
+{
+  "android": {
+    "packageName": "com.example.myapp",
+    "sha256Fingerprint": "AA:BB:CC:DD:EE:FF:00:11:22:33:44:55:66:77:88:99:AA:BB:CC:DD:EE:FF:00:11:22:33:44:55:66:77:88:99",
+    "digitalAssetLinks": [
+      {
+        "relation": ["delegate_permission/common.handle_all_urls"],
+        "target": {
+          "namespace": "android_app",
+          "package_name": "com.example.myapp",
+          "sha256_cert_fingerprints": ["AA:BB:CC:DD:EE:FF:00:11:22:33:44:55:66:77:88:99:AA:BB:CC:DD:EE:FF:00:11:22:33:44:55:66:77:88:99"]
+        }
+      }
+    ]
+  },
+  "files": {
+    "assets": "/files/android-assets.zip",
+    "config": "/files/app-config.json",
+    "resources": "/files/android-resources.zip"
+  }
+}
