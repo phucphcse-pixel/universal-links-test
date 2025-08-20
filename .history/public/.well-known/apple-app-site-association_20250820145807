@@ -1,0 +1,21 @@
+{
+    "applinks": {
+        "apps": [],
+        "details": [
+            {
+                "appID": "5GJ9GL79M4.co.hft.fc.staging",
+                "paths": [
+                    "/files/*",
+                    "/api/*",
+                    "/config/*"
+                ],
+                "components": [
+                    {
+                        "/": "/files/*",
+                        "comment": "Matches any URL whose path starts with /files/"
+                    }
+                ]
+            }
+        ]
+    }
+}

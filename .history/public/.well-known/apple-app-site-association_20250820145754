@@ -5,8 +5,9 @@
             {
                 "appID": "5GJ9GL79M4.co.hft.fc.staging",
                 "paths": [
-                    "*",
-                    "*"
+                    "/files/*",
+                    "/api/*",
+                    "/config/*"
                 ]
             }
         ]
